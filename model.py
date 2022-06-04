@@ -127,7 +127,7 @@ def connect_to_db(flask_app):
     elif os.environ.get("LOCAL_DEV"):
         flask_app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:@localhost:5433/postgres"
     else:  
-        flask_app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_URI", "postgresql://postgres:@localhost:5433/postgres")
+        flask_app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_URI", "postgresql://postgres:@localhost:5432/postgres")
     
     #additional rules:
     flask_app.config['SQLALCHEMY_ECHO'] = False

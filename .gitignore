@@ -3,3 +3,4 @@ secrets.sh
 __pycache__/
 venv/
 .idea/
+.env
