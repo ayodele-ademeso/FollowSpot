@@ -625,7 +625,7 @@ cherry_coke_a = crud.create_audition(user_id=1,
                         #    date="2020-01-24",
                            role="Female",
                            location="Self Record",
-                           notes="Recorded from the Lazerow's in Turks and Caicos on my iPhone without my VO setup. Sound quality pretty decent considering... this was a fun one. Turns out Piña Coladas help with making acting choices.")
+                           notes="Recorded from the Lazerow's in Turks and Caicos on my iPhone without my VO setup. Sound quality pretty decent considering... this was a fun one. Turns out Pina Coladas help with making acting choices.")
 
 #37
 bobbi_brown_a = crud.create_audition(user_id=1,
